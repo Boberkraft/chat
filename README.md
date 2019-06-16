@@ -6,12 +6,13 @@ Created back in __2017__.
 ![in use gif](image2.gif)
 
 
-Client passes to server a dictionary of function that the server can call upon when performing tasks.
 
-For example it calls "msg" of a specific connection to send it a list containing a message.
 
 ## How does it work?
-Tomasz sends a priveta msg to Bobi:
+Client passes to server a dictionary of function that the server can call upon when performing tasks.
+To send a message Server calls "msg" of a specific connection and passes a list containing a message.
+
+Tomasz sends a private msg to Bobi:
 
 0. Users on connection provide a dictionary with functions:
 ```python
