@@ -13,7 +13,7 @@ For example it calls "msg" of a specific connection to send it a list containing
 ## How does it work?
 Tomasz sends a priveta msg to Bobi:
 
-0. When users are connection they provide a dictionary with functions:
+0. Users on connection provide a dictionary with functions:
 ```python
 c = rpyc.connect('localhost', 18812)
 bgsrv = rpyc.BgServingThread(c)
