@@ -20,10 +20,10 @@ c = rpyc.connect('localhost', 18812)
 bgsrv = rpyc.BgServingThread(c)
 
 gui.conn = c.root.connect({
-    'username': exposed_username
-    'msg': exposed_get_msg
-    'private_msg': exposed_get_msg
-    'ping': exposed_get_msg
+    'username': exposed_username,
+    'msg': exposed_get_msg,
+    'private_msg': exposed_get_msg,
+    'ping': exposed_get_msg,
     'list_users': exposed_get_msg
 })
 ```
