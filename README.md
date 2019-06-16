@@ -3,5 +3,5 @@
 so i decided to create a chat in it.
 Created back in __2017__.
 
-![in use gif](image.gif)
+![in use gif](image2.gif)
 
