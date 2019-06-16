@@ -22,9 +22,9 @@ bgsrv = rpyc.BgServingThread(c)
 gui.conn = c.root.connect({
     'username': exposed_username
     'msg': exposed_get_msg
-    'private_msg': self.exposed_get_msg
-    'ping': self.exposed_get_msg
-    'list_users': self.exposed_get_msg
+    'private_msg': exposed_get_msg
+    'ping': exposed_get_msg
+    'list_users': exposed_get_msg
 })
 ```
 1. Tomasz calls a server function:
